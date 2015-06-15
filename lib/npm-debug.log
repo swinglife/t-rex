@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'ejs' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose cache add [ 'ejs', null ]
+5 verbose cache add name=undefined spec="ejs" args=["ejs",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ejs',
+6 verbose parsed url   path: 'ejs',
+6 verbose parsed url   href: 'ejs' }
+7 silly lockFile 75eeca8f-ejs ejs
+8 verbose lock ejs /Users/Swinglife/.npm/75eeca8f-ejs.lock
+9 silly lockFile 75eeca8f-ejs ejs
+10 silly lockFile 75eeca8f-ejs ejs
+11 verbose addNamed [ 'ejs', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile bcdf6e5f-ejs ejs@
+14 verbose lock ejs@ /Users/Swinglife/.npm/bcdf6e5f-ejs.lock
+15 silly addNameRange { name: 'ejs', range: '*', hasData: false }
+16 verbose request where is /ejs
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id fa5422a92fd801ca
+19 verbose url raw /ejs
+20 verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+21 verbose url resolved https://registry.npmjs.org/ejs
+22 verbose request where is https://registry.npmjs.org/ejs
+23 info trying registry request attempt 1 at 23:05:07
+24 verbose etag "5GPNQTTE2XB2NM83T37J14ZQ1"
+25 http GET https://registry.npmjs.org/ejs
+26 http 200 https://registry.npmjs.org/ejs
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"E7GTCFSOO16CWLF4BYYVHUTFA"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '45288',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Mon, 15 Jun 2015 15:05:09 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '31',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1434380709.373782,VS0,VE0',
+27 silly registry.get     vary: 'Accept' } ]
+28 silly addNameRange number 2 { name: 'ejs', range: '*', hasData: true }
+29 silly addNameRange versions [ 'ejs',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.4.2',
+29 silly addNameRange     '0.4.3',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.8.0',
+29 silly addNameRange     '0.8.1',
+29 silly addNameRange     '0.8.2',
+29 silly addNameRange     '0.8.3',
+29 silly addNameRange     '0.8.4',
+29 silly addNameRange     '0.8.5',
+29 silly addNameRange     '0.8.6',
+29 silly addNameRange     '0.8.8',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '2.0.2',
+29 silly addNameRange     '2.0.3',
+29 silly addNameRange     '2.0.4',
+29 silly addNameRange     '2.0.5',
+29 silly addNameRange     '2.0.6',
+29 silly addNameRange     '2.0.7',
+29 silly addNameRange     '2.0.8',
+29 silly addNameRange     '2.1.1',
+29 silly addNameRange     '2.1.2',
+29 silly addNameRange     '2.1.3',
+29 silly addNameRange     '2.1.4',
+29 silly addNameRange     '2.2.1',
+29 silly addNameRange     '2.2.2',
+29 silly addNameRange     '2.2.3',
+29 silly addNameRange     '2.2.4',
+29 silly addNameRange     '2.3.1' ] ]
+30 verbose addNamed [ 'ejs', '2.3.1' ]
+31 verbose addNamed [ '2.3.1', '2.3.1' ]
+32 silly lockFile 823d5f08-ejs-2-3-1 ejs@2.3.1
+33 verbose lock ejs@2.3.1 /Users/Swinglife/.npm/823d5f08-ejs-2-3-1.lock
+34 silly lockFile f5dbddfd-stry-npmjs-org-ejs-ejs-2-3-1-tgz https://registry.npmjs.org/ejs/-/ejs-2.3.1.tgz
+35 verbose lock https://registry.npmjs.org/ejs/-/ejs-2.3.1.tgz /Users/Swinglife/.npm/f5dbddfd-stry-npmjs-org-ejs-ejs-2-3-1-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/ejs/-/ejs-2.3.1.tgz',
+36 verbose addRemoteTarball   'a697d98ac401e32a99c3deed92c60c19b6199a7f' ]
+37 info retry fetch attempt 1 at 23:05:10
+38 verbose fetch to= /var/folders/yp/9xg1xnzx77n7l2qlpzlr275c0000gn/T/npm-3295-gbP_EpgP/registry.npmjs.org/ejs/-/ejs-2.3.1.tgz
+39 http GET https://registry.npmjs.org/ejs/-/ejs-2.3.1.tgz
+40 http 200 https://registry.npmjs.org/ejs/-/ejs-2.3.1.tgz
+41 silly lockFile f5dbddfd-stry-npmjs-org-ejs-ejs-2-3-1-tgz https://registry.npmjs.org/ejs/-/ejs-2.3.1.tgz
+42 silly lockFile f5dbddfd-stry-npmjs-org-ejs-ejs-2-3-1-tgz https://registry.npmjs.org/ejs/-/ejs-2.3.1.tgz
+43 silly lockFile 823d5f08-ejs-2-3-1 ejs@2.3.1
+44 silly lockFile 823d5f08-ejs-2-3-1 ejs@2.3.1
+45 silly lockFile bcdf6e5f-ejs ejs@
+46 silly lockFile bcdf6e5f-ejs ejs@
+47 error Error: EACCES, mkdir '/Users/Swinglife/.npm/ejs/2.3.1'
+47 error  { [Error: EACCES, mkdir '/Users/Swinglife/.npm/ejs/2.3.1']
+47 error   errno: 3,
+47 error   code: 'EACCES',
+47 error   path: '/Users/Swinglife/.npm/ejs/2.3.1' }
+48 error Please try running this command again as root/Administrator.
+49 error System Darwin 14.1.0
+50 error command "node" "/usr/local/bin/npm" "install" "ejs"
+51 error cwd /Users/Swinglife/Documents/nodejs/t-rex/lib
+52 error node -v v0.10.36
+53 error npm -v 1.4.28
+54 error path /Users/Swinglife/.npm/ejs/2.3.1
+55 error code EACCES
+56 error errno 3
+57 error stack Error: EACCES, mkdir '/Users/Swinglife/.npm/ejs/2.3.1'
+58 verbose exit [ 3, true ]
